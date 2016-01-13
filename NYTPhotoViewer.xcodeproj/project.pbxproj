@@ -42,7 +42,7 @@
 		865AF8E61C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8DF1C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m */; };
 		865AF8E71C46E93400614B80 /* NYTPhotoViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8E01C46E93400614B80 /* NYTPhotoViewControllerTests.m */; };
 		865AF8E81C46E93400614B80 /* NYTScalingImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */; };
-		865AF8EB1C46EA0E00614B80 /* NYTExamplePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8EA1C46EA0E00614B80 /* NYTExamplePhoto.m */; };
+		865AF8EB1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8EA1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,8 +98,8 @@
 		865AF8DF1C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoTransitionAnimatorTests.m; sourceTree = "<group>"; };
 		865AF8E01C46E93400614B80 /* NYTPhotoViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewControllerTests.m; sourceTree = "<group>"; };
 		865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTScalingImageViewTests.m; sourceTree = "<group>"; };
-		865AF8E91C46EA0E00614B80 /* NYTExamplePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTExamplePhoto.h; sourceTree = "<group>"; };
-		865AF8EA1C46EA0E00614B80 /* NYTExamplePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTExamplePhoto.m; sourceTree = "<group>"; };
+		865AF8E91C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewerTestsPhoto.h; sourceTree = "<group>"; };
+		865AF8EA1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewerTestsPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 		864EA05F1C46D6C900E32F9B /* NYTPhotoViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				865AF8E91C46EA0E00614B80 /* NYTExamplePhoto.h */,
-				865AF8EA1C46EA0E00614B80 /* NYTExamplePhoto.m */,
+				865AF8E91C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.h */,
+				865AF8EA1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m */,
 				865AF8DB1C46E93400614B80 /* NYTPhotoCaptionViewTests.m */,
 				865AF8DC1C46E93400614B80 /* NYTPhotosDataSourceTests.m */,
 				865AF8DD1C46E93400614B80 /* NYTPhotosOverlayViewTests.m */,
@@ -380,7 +380,7 @@
 				865AF8E31C46E93400614B80 /* NYTPhotosDataSourceTests.m in Sources */,
 				865AF8E61C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m in Sources */,
 				865AF8E51C46E93400614B80 /* NYTPhotosViewControllerTests.m in Sources */,
-				865AF8EB1C46EA0E00614B80 /* NYTExamplePhoto.m in Sources */,
+				865AF8EB1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m in Sources */,
 				865AF8E81C46E93400614B80 /* NYTScalingImageViewTests.m in Sources */,
 				865AF8E71C46E93400614B80 /* NYTPhotoViewControllerTests.m in Sources */,
 			);

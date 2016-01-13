@@ -10,7 +10,7 @@
 @import XCTest;
 
 #import "NYTPhotoViewController.h"
-#import "NYTExamplePhoto.h"
+#import "NYTPhotoViewerTestsPhoto.h"
 
 @interface NYTPhotoViewControllerTests : XCTestCase
 
@@ -49,8 +49,8 @@
     XCTAssertNoThrow([[NYTPhotoViewController alloc] initWithPhoto:nil loadingView:nil notificationCenter:nil]);
 }
 
-- (NYTExamplePhoto *)newTestPhoto {
-    NYTExamplePhoto *testPhoto = [[NYTExamplePhoto alloc] init];
+- (NYTPhotoViewerTestsPhoto *)newTestPhoto {
+    NYTPhotoViewerTestsPhoto *testPhoto = [[NYTPhotoViewerTestsPhoto alloc] init];
     return testPhoto;
 }
 

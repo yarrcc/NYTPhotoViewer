@@ -10,7 +10,7 @@
 @import XCTest;
 
 #import "NYTPhotosDataSource.h"
-#import "NYTExamplePhoto.h"
+#import "NYTPhotoViewerTestsPhoto.h"
 
 @interface NYTPhotosDataSourceTests : XCTestCase
 
@@ -47,7 +47,7 @@
     NSMutableArray *photos = [NSMutableArray array];
     
     for (int i = 0; i < 5; i++) {
-        NYTExamplePhoto *photo = [[NYTExamplePhoto alloc] init];
+        NYTPhotoViewerTestsPhoto *photo = [[NYTPhotoViewerTestsPhoto alloc] init];
         [photos addObject:photo];
     }
     

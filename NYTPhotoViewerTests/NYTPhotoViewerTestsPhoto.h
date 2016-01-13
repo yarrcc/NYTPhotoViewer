@@ -10,7 +10,7 @@
 
 #import "NYTPhoto.h"
 
-@interface NYTExamplePhoto : NSObject <NYTPhoto>
+@interface NYTPhotoViewerTestsPhoto : NSObject <NYTPhoto>
 
 // Redeclare all the properties as readwrite for sample/testing purposes.
 @property (nonatomic) UIImage *image;

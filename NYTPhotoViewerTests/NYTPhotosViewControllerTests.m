@@ -10,7 +10,7 @@
 @import XCTest;
 
 #import "NYTPhotosViewController.h"
-#import "NYTExamplePhoto.h"
+#import "NYTPhotoViewerTestsPhoto.h"
 
 @interface NYTPhotosViewControllerTests : XCTestCase
 
@@ -132,7 +132,7 @@
 }
 
 - (void)testDesignatedInitializerAcceptsNilForPhotosParameter {
-    XCTAssertNoThrow([[NYTPhotosViewController alloc] initWithPhotos:nil initialPhoto:[[NYTExamplePhoto alloc] init]]);
+    XCTAssertNoThrow([[NYTPhotosViewController alloc] initWithPhotos:nil initialPhoto:[[NYTPhotoViewerTestsPhoto alloc] init]]);
 }
 
 - (void)testDesignatedInitializerAcceptsNilForInitialPhotoParameter {
@@ -153,7 +153,7 @@
     NYTPhotosViewController *photosViewController = [[NYTPhotosViewController alloc] initWithPhotos:photos initialPhoto:photos.firstObject];
     [photosViewController viewDidLoad];
     
-    NYTExamplePhoto *invalidPhoto = [[NYTExamplePhoto alloc] init];
+    NYTPhotoViewerTestsPhoto *invalidPhoto = [[NYTPhotoViewerTestsPhoto alloc] init];
     
     [photosViewController displayPhoto:invalidPhoto animated:NO];
     XCTAssertEqualObjects(photos.firstObject, photosViewController.currentlyDisplayedPhoto);
@@ -164,7 +164,7 @@
     NYTPhotosViewController *photosViewController = [[NYTPhotosViewController alloc] initWithPhotos:photos initialPhoto:photos.firstObject];
     [photosViewController viewDidLoad];
 
-    NYTExamplePhoto *photoToDisplay = photos[2];
+    NYTPhotoViewerTestsPhoto *photoToDisplay = photos[2];
     
     [photosViewController displayPhoto:photoToDisplay animated:NO];
     XCTAssertEqualObjects(photoToDisplay, photosViewController.currentlyDisplayedPhoto);
@@ -178,7 +178,7 @@
 - (void)testUpdateImageForPhotoDoesNothingWhenPassedPhotoOutsideDataSource {
     NSArray *photos = [self newTestPhotos];
     NYTPhotosViewController *photosViewController = [[NYTPhotosViewController alloc] initWithPhotos:photos initialPhoto:photos.firstObject];
-    NYTExamplePhoto *invalidPhoto = [[NYTExamplePhoto alloc] init];
+    NYTPhotoViewerTestsPhoto *invalidPhoto = [[NYTPhotoViewerTestsPhoto alloc] init];
     invalidPhoto.image = [[UIImage alloc] init];
     
     [photosViewController updateImageForPhoto:invalidPhoto];
@@ -190,7 +190,7 @@
     NSArray *photos = [self newTestPhotos];
     NYTPhotosViewController *photosViewController = [[NYTPhotosViewController alloc] initWithPhotos:photos initialPhoto:photos.firstObject];
 
-    NYTExamplePhoto *photoToUpdate = photos.firstObject;
+    NYTPhotoViewerTestsPhoto *photoToUpdate = photos.firstObject;
     photoToUpdate.image = [UIImage imageNamed:@"NYTimesBuilding" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
     
     [photosViewController updateImageForPhoto:photoToUpdate];
@@ -218,7 +218,7 @@
     NSMutableArray *photos = [NSMutableArray array];
     
     for (int i = 0; i < 5; i++) {
-        NYTExamplePhoto *photo = [[NYTExamplePhoto alloc] init];
+        NYTPhotoViewerTestsPhoto *photo = [[NYTPhotoViewerTestsPhoto alloc] init];
         [photos addObject:photo];
     }
     

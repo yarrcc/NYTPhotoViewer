@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 NYTimes. All rights reserved.
 //
 
-#import "NYTExamplePhoto.h"
+#import "NYTPhotoViewerTestsPhoto.h"
 
-@implementation NYTExamplePhoto
+@implementation NYTPhotoViewerTestsPhoto
 
 @end

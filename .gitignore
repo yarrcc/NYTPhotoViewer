@@ -43,7 +43,5 @@ ocunit.xml
 *.xcbkptlist
 *.xcsettings
 
-# bootstrap script
-Vendor/bundle/
-.bundle/
-bin/
+# Carthage
+Carhtage/Build 

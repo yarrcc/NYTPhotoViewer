@@ -43,6 +43,12 @@
 		865AF8E71C46E93400614B80 /* NYTPhotoViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8E01C46E93400614B80 /* NYTPhotoViewControllerTests.m */; };
 		865AF8E81C46E93400614B80 /* NYTScalingImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */; };
 		865AF8EB1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8EA1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m */; };
+		865AF9341C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 865AF92E1C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX.png */; };
+		865AF9351C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865AF92F1C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@2x.png */; };
+		865AF9361C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9301C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@3x.png */; };
+		865AF9371C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9311C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape.png */; };
+		865AF9381C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9321C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@2x.png */; };
+		865AF9391C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9331C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +106,12 @@
 		865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTScalingImageViewTests.m; sourceTree = "<group>"; };
 		865AF8E91C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewerTestsPhoto.h; sourceTree = "<group>"; };
 		865AF8EA1C46EA0E00614B80 /* NYTPhotoViewerTestsPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewerTestsPhoto.m; sourceTree = "<group>"; };
+		865AF92E1C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NYTPhotoViewerCloseButtonX.png; sourceTree = "<group>"; };
+		865AF92F1C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NYTPhotoViewerCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		865AF9301C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NYTPhotoViewerCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		865AF9311C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NYTPhotoViewerCloseButtonXLandscape.png; sourceTree = "<group>"; };
+		865AF9321C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NYTPhotoViewerCloseButtonXLandscape@2x.png"; sourceTree = "<group>"; };
+		865AF9331C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NYTPhotoViewerCloseButtonXLandscape@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +180,7 @@
 				864EA0861C46E2E100E32F9B /* NYTScalingImageView.m */,
 				864EA0871C46E2E100E32F9B /* Protocols */,
 				864EA08C1C46E2E100E32F9B /* Resource Loading */,
+				865AF92D1C46EF6F00614B80 /* Resources */,
 				864EA0561C46D6C900E32F9B /* Info.plist */,
 			);
 			path = NYTPhotoViewer;
@@ -235,6 +248,19 @@
 				865AF8D91C46E7B500614B80 /* LICENSE.md */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		865AF92D1C46EF6F00614B80 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				865AF92E1C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX.png */,
+				865AF92F1C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@2x.png */,
+				865AF9301C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@3x.png */,
+				865AF9311C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape.png */,
+				865AF9321C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@2x.png */,
+				865AF9331C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +367,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865AF9381C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@2x.png in Resources */,
+				865AF9341C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX.png in Resources */,
+				865AF9391C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape@3x.png in Resources */,
+				865AF9351C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@2x.png in Resources */,
+				865AF9371C46EF6F00614B80 /* NYTPhotoViewerCloseButtonXLandscape.png in Resources */,
+				865AF9361C46EF6F00614B80 /* NYTPhotoViewerCloseButtonX@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

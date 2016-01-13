@@ -83,6 +83,8 @@
 		864EA08B1C46E2E100E32F9B /* NYTPhotosViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotosViewControllerDataSource.h; sourceTree = "<group>"; };
 		864EA08D1C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NYTPhotoViewer.h"; sourceTree = "<group>"; };
 		864EA08E1C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NYTPhotoViewer.m"; sourceTree = "<group>"; };
+		865AF8D91C46E7B500614B80 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		865AF8DA1C46E7B500614B80 /* NYTPhotoViewer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NYTPhotoViewer.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		864EA0471C46D6C900E32F9B = {
 			isa = PBXGroup;
 			children = (
+				865AF8D81C46E78500614B80 /* Podspec Metadata */,
 				864EA06B1C46DB9A00E32F9B /* Carthage */,
 				864EA0531C46D6C900E32F9B /* NYTPhotoViewer */,
 				864EA05F1C46D6C900E32F9B /* NYTPhotoViewerTests */,
@@ -200,6 +203,15 @@
 				864EA08E1C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.m */,
 			);
 			path = "Resource Loading";
+			sourceTree = "<group>";
+		};
+		865AF8D81C46E78500614B80 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				865AF8DA1C46E7B500614B80 /* NYTPhotoViewer.podspec */,
+				865AF8D91C46E7B500614B80 /* LICENSE.md */,
+			);
+			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

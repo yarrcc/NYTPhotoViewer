@@ -4,4 +4,22 @@
    <FileRef
       location = "container:NYTPhotoViewer.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Libraries">
+      <Group
+         location = "container:"
+         name = "NYTPhotoViewer">
+         <FileRef
+            location = "group:Carthage/Checkouts/FLAnimatedImage/FLAnimatedImage.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "NYTPhotoViewerTests">
+         <FileRef
+            location = "group:Carthage/Checkouts/ocmock/Source/OCMock.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>

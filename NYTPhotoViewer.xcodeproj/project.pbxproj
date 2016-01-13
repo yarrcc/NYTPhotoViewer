@@ -10,6 +10,8 @@
 		864EA0551C46D6C900E32F9B /* NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 864EA0541C46D6C900E32F9B /* NYTPhotoViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		864EA05C1C46D6C900E32F9B /* NYTPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EA0511C46D6C900E32F9B /* NYTPhotoViewer.framework */; };
 		864EA0611C46D6C900E32F9B /* NYTPhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864EA0601C46D6C900E32F9B /* NYTPhotoViewerTests.m */; };
+		864EA06F1C46DFAA00E32F9B /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EA06E1C46DFAA00E32F9B /* FLAnimatedImage.framework */; };
+		864EA0731C46DFD800E32F9B /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EA0721C46DFD800E32F9B /* OCMock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		864EA0621C46D6C900E32F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864EA06C1C46DC3A00E32F9B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		864EA06D1C46DC4F00E32F9B /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		864EA06E1C46DFAA00E32F9B /* FLAnimatedImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAnimatedImage.framework; path = "Carthage/Checkouts/FLAnimatedImage/build/Debug-iphoneos/FLAnimatedImage.framework"; sourceTree = "<group>"; };
+		864EA0721C46DFD800E32F9B /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = "Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos/OCMock.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864EA06F1C46DFAA00E32F9B /* FLAnimatedImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864EA0731C46DFD800E32F9B /* OCMock.framework in Frameworks */,
 				864EA05C1C46D6C900E32F9B /* NYTPhotoViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +64,7 @@
 				864EA06B1C46DB9A00E32F9B /* Carthage */,
 				864EA0531C46D6C900E32F9B /* NYTPhotoViewer */,
 				864EA05F1C46D6C900E32F9B /* NYTPhotoViewerTests */,
+				864EA0741C46DFF100E32F9B /* Frameworks */,
 				864EA0521C46D6C900E32F9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +103,15 @@
 				864EA06D1C46DC4F00E32F9B /* Cartfile.private */,
 			);
 			name = Carthage;
+			sourceTree = "<group>";
+		};
+		864EA0741C46DFF100E32F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864EA0721C46DFD800E32F9B /* OCMock.framework */,
+				864EA06E1C46DFAA00E32F9B /* FLAnimatedImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +338,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/FLAnimatedImage/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = NYTPhotoViewer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -338,6 +358,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/FLAnimatedImage/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = NYTPhotoViewer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -350,8 +374,16 @@
 		864EA0691C46D6C900E32F9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = NYTPhotoViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTPhotoViewerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,8 +392,16 @@
 		864EA06A1C46D6C900E32F9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = NYTPhotoViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTPhotoViewerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

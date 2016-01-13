@@ -9,7 +9,7 @@
 @import UIKit;
 @import XCTest;
 
-#import <NYTPhotoViewer/NYTPhotoCaptionView.h>
+#import "NYTPhotoCaptionView.h"
 
 @interface NYTPhotoCaptionViewTests : XCTestCase
 

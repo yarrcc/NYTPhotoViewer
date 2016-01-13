@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		864EA0551C46D6C900E32F9B /* NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 864EA0541C46D6C900E32F9B /* NYTPhotoViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		864EA05C1C46D6C900E32F9B /* NYTPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EA0511C46D6C900E32F9B /* NYTPhotoViewer.framework */; };
-		864EA0611C46D6C900E32F9B /* NYTPhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 864EA0601C46D6C900E32F9B /* NYTPhotoViewerTests.m */; };
 		864EA06F1C46DFAA00E32F9B /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EA06E1C46DFAA00E32F9B /* FLAnimatedImage.framework */; };
 		864EA0731C46DFD800E32F9B /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EA0721C46DFD800E32F9B /* OCMock.framework */; };
 		864EA08F1C46E2E100E32F9B /* NYTPhotoCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 864EA0751C46E2E100E32F9B /* NYTPhotoCaptionView.h */; };
@@ -36,6 +35,14 @@
 		864EA0A41C46E2E100E32F9B /* NYTPhotosViewControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 864EA08B1C46E2E100E32F9B /* NYTPhotosViewControllerDataSource.h */; };
 		864EA0A51C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 864EA08D1C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.h */; };
 		864EA0A61C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 864EA08E1C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.m */; };
+		865AF8E21C46E93400614B80 /* NYTPhotoCaptionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8DB1C46E93400614B80 /* NYTPhotoCaptionViewTests.m */; };
+		865AF8E31C46E93400614B80 /* NYTPhotosDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8DC1C46E93400614B80 /* NYTPhotosDataSourceTests.m */; };
+		865AF8E41C46E93400614B80 /* NYTPhotosOverlayViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8DD1C46E93400614B80 /* NYTPhotosOverlayViewTests.m */; };
+		865AF8E51C46E93400614B80 /* NYTPhotosViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8DE1C46E93400614B80 /* NYTPhotosViewControllerTests.m */; };
+		865AF8E61C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8DF1C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m */; };
+		865AF8E71C46E93400614B80 /* NYTPhotoViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8E01C46E93400614B80 /* NYTPhotoViewControllerTests.m */; };
+		865AF8E81C46E93400614B80 /* NYTScalingImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */; };
+		865AF8EB1C46EA0E00614B80 /* NYTExamplePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF8EA1C46EA0E00614B80 /* NYTExamplePhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +60,6 @@
 		864EA0541C46D6C900E32F9B /* NYTPhotoViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewer.h; sourceTree = "<group>"; };
 		864EA0561C46D6C900E32F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864EA05B1C46D6C900E32F9B /* NYTPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		864EA0601C46D6C900E32F9B /* NYTPhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewerTests.m; sourceTree = "<group>"; };
 		864EA0621C46D6C900E32F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864EA06C1C46DC3A00E32F9B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		864EA06D1C46DC4F00E32F9B /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
@@ -85,6 +91,15 @@
 		864EA08E1C46E2E100E32F9B /* NSBundle+NYTPhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NYTPhotoViewer.m"; sourceTree = "<group>"; };
 		865AF8D91C46E7B500614B80 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		865AF8DA1C46E7B500614B80 /* NYTPhotoViewer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NYTPhotoViewer.podspec; sourceTree = "<group>"; };
+		865AF8DB1C46E93400614B80 /* NYTPhotoCaptionViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoCaptionViewTests.m; sourceTree = "<group>"; };
+		865AF8DC1C46E93400614B80 /* NYTPhotosDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotosDataSourceTests.m; sourceTree = "<group>"; };
+		865AF8DD1C46E93400614B80 /* NYTPhotosOverlayViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotosOverlayViewTests.m; sourceTree = "<group>"; };
+		865AF8DE1C46E93400614B80 /* NYTPhotosViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotosViewControllerTests.m; sourceTree = "<group>"; };
+		865AF8DF1C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoTransitionAnimatorTests.m; sourceTree = "<group>"; };
+		865AF8E01C46E93400614B80 /* NYTPhotoViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewControllerTests.m; sourceTree = "<group>"; };
+		865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTScalingImageViewTests.m; sourceTree = "<group>"; };
+		865AF8E91C46EA0E00614B80 /* NYTExamplePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTExamplePhoto.h; sourceTree = "<group>"; };
+		865AF8EA1C46EA0E00614B80 /* NYTExamplePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTExamplePhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +176,15 @@
 		864EA05F1C46D6C900E32F9B /* NYTPhotoViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				864EA0601C46D6C900E32F9B /* NYTPhotoViewerTests.m */,
+				865AF8E91C46EA0E00614B80 /* NYTExamplePhoto.h */,
+				865AF8EA1C46EA0E00614B80 /* NYTExamplePhoto.m */,
+				865AF8DB1C46E93400614B80 /* NYTPhotoCaptionViewTests.m */,
+				865AF8DC1C46E93400614B80 /* NYTPhotosDataSourceTests.m */,
+				865AF8DD1C46E93400614B80 /* NYTPhotosOverlayViewTests.m */,
+				865AF8DE1C46E93400614B80 /* NYTPhotosViewControllerTests.m */,
+				865AF8DF1C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m */,
+				865AF8E01C46E93400614B80 /* NYTPhotoViewControllerTests.m */,
+				865AF8E11C46E93400614B80 /* NYTScalingImageViewTests.m */,
 				864EA0621C46D6C900E32F9B /* Info.plist */,
 			);
 			path = NYTPhotoViewerTests;
@@ -352,7 +375,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				864EA0611C46D6C900E32F9B /* NYTPhotoViewerTests.m in Sources */,
+				865AF8E21C46E93400614B80 /* NYTPhotoCaptionViewTests.m in Sources */,
+				865AF8E41C46E93400614B80 /* NYTPhotosOverlayViewTests.m in Sources */,
+				865AF8E31C46E93400614B80 /* NYTPhotosDataSourceTests.m in Sources */,
+				865AF8E61C46E93400614B80 /* NYTPhotoTransitionAnimatorTests.m in Sources */,
+				865AF8E51C46E93400614B80 /* NYTPhotosViewControllerTests.m in Sources */,
+				865AF8EB1C46EA0E00614B80 /* NYTExamplePhoto.m in Sources */,
+				865AF8E81C46E93400614B80 /* NYTScalingImageViewTests.m in Sources */,
+				865AF8E71C46E93400614B80 /* NYTPhotoViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 @import UIKit;
 @import XCTest;
 
-#import <NYTPhotoViewer/NYTPhotosViewController.h>
+#import "NYTPhotosViewController.h"
 #import "NYTExamplePhoto.h"
 
 @interface NYTPhotosViewControllerTests : XCTestCase

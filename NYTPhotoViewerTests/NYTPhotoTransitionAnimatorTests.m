@@ -9,7 +9,7 @@
 @import UIKit;
 @import XCTest;
 
-#import <NYTPhotoViewer/NYTPhotoTransitionAnimator.h>
+#import "NYTPhotoTransitionAnimator.h"
 
 @interface NYTPhotoTransitionAnimatorTests : XCTestCase
 

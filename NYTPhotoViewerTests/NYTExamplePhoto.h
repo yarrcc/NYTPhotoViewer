@@ -8,7 +8,7 @@
 
 @import Foundation;
 
-#import <NYTPhotoViewer/NYTPhoto.h>
+#import "NYTPhoto.h"
 
 @interface NYTExamplePhoto : NSObject <NYTPhoto>
 

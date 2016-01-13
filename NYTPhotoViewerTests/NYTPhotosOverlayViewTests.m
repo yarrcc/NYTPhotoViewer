@@ -9,7 +9,7 @@
 @import UIKit;
 @import XCTest;
 
-#import <NYTPhotoViewer/NYTPhotosOverlayView.h>
+#import "NYTPhotosOverlayView.h"
 
 @interface NYTPhotosOverlayViewTests : XCTestCase
 

@@ -13,6 +13,7 @@
 		865AF9031C46EC9700614B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9011C46EC9700614B80 /* Main.storyboard */; };
 		865AF9051C46EC9700614B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9041C46EC9700614B80 /* Assets.xcassets */; };
 		865AF9081C46EC9700614B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9061C46EC9700614B80 /* LaunchScreen.storyboard */; };
+		865AF93B1C46F01E00614B80 /* NYTPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865AF93A1C46F01E00614B80 /* NYTPhotoViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		865AF9041C46EC9700614B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865AF9071C46EC9700614B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865AF9091C46EC9700614B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865AF93A1C46F01E00614B80 /* NYTPhotoViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NYTPhotoViewer.framework; path = "../build/Debug-iphoneos/NYTPhotoViewer.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865AF93B1C46F01E00614B80 /* NYTPhotoViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				865AF8F71C46EC9600614B80 /* Example */,
+				865AF93E1C46F04500614B80 /* Frameworks */,
 				865AF8F61C46EC9600614B80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,14 @@
 				865AF8F91C46EC9600614B80 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		865AF93E1C46F04500614B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				865AF93A1C46F01E00614B80 /* NYTPhotoViewer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

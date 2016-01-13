@@ -13,6 +13,8 @@
 		865AF9231C46ED6C00614B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9221C46ED6C00614B80 /* Assets.xcassets */; };
 		865AF9261C46ED6C00614B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865AF9241C46ED6C00614B80 /* LaunchScreen.storyboard */; };
 		865AF93D1C46F02D00614B80 /* NYTPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865AF93C1C46F02D00614B80 /* NYTPhotoViewer.framework */; };
+		865AF9421C46F0F800614B80 /* ExamplePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AF9401C46F0F800614B80 /* ExamplePhoto.swift */; };
+		865AF9431C46F0F800614B80 /* PhotosProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AF9411C46F0F800614B80 /* PhotosProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		865AF9251C46ED6C00614B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865AF9271C46ED6C00614B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		865AF93C1C46F02D00614B80 /* NYTPhotoViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NYTPhotoViewer.framework; path = "../build/Debug-iphoneos/NYTPhotoViewer.framework"; sourceTree = "<group>"; };
+		865AF9401C46F0F800614B80 /* ExamplePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePhoto.swift; sourceTree = "<group>"; };
+		865AF9411C46F0F800614B80 /* PhotosProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				865AF91B1C46ED6C00614B80 /* AppDelegate.swift */,
 				865AF91D1C46ED6C00614B80 /* ViewController.swift */,
+				865AF9401C46F0F800614B80 /* ExamplePhoto.swift */,
+				865AF9411C46F0F800614B80 /* PhotosProvider.swift */,
 				865AF91F1C46ED6C00614B80 /* Main.storyboard */,
 				865AF9221C46ED6C00614B80 /* Assets.xcassets */,
 				865AF9241C46ED6C00614B80 /* LaunchScreen.storyboard */,
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				865AF91E1C46ED6C00614B80 /* ViewController.swift in Sources */,
+				865AF9421C46F0F800614B80 /* ExamplePhoto.swift in Sources */,
 				865AF91C1C46ED6C00614B80 /* AppDelegate.swift in Sources */,
+				865AF9431C46F0F800614B80 /* PhotosProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

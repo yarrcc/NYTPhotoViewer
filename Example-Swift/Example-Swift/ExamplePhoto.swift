@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NYTPhotoViewer
 
 class ExamplePhoto: NSObject, NYTPhoto {
 

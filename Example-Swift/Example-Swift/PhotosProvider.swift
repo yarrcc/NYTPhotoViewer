@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NYTPhotoViewer
 
 /**
 *   In Swift 1.2, the following file level constants can be moved inside the class for better encapsulation

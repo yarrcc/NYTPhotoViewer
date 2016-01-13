@@ -106,6 +106,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		72DCB731DCC658F46D0B619E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		864EA0451C46CCF100E32F9B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		864EA0461C46CE8700E32F9B /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		8C2AB3F21ABDF266004A2BBA /* NYTPhotosDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYTPhotosDataSourceTests.swift; sourceTree = "<group>"; };
 		8C2AB3F41ABDF959004A2BBA /* NYTPhotosViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYTPhotosViewControllerTests.swift; sourceTree = "<group>"; };
 		8C3F25531ABCE816007BFF4E /* NYTPhotoViewer-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYTPhotoViewer-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -185,8 +187,9 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				8C838AC41AC7774300D754D3 /* Common Resources */,
+				864EA0441C46CCB600E32F9B /* Carthage Metadata */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				8C838AC41AC7774300D754D3 /* Common Resources */,
 				6003F593195388D20070C39A /* NYTPhotoViewer */,
 				8C4464E11ABCA3BA00BD79F1 /* NYTPhotoViewer-Swift */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -283,6 +286,15 @@
 				C260A188D0E255B25171088B /* README.md */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		864EA0441C46CCB600E32F9B /* Carthage Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				864EA0451C46CCF100E32F9B /* Cartfile */,
+				864EA0461C46CE8700E32F9B /* Cartfile.private */,
+			);
+			name = "Carthage Metadata";
 			sourceTree = "<group>";
 		};
 		8C4464E11ABCA3BA00BD79F1 /* NYTPhotoViewer-Swift */ = {

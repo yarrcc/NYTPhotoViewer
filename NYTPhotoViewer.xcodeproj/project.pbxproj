@@ -29,6 +29,8 @@
 		864EA05B1C46D6C900E32F9B /* NYTPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		864EA0601C46D6C900E32F9B /* NYTPhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewerTests.m; sourceTree = "<group>"; };
 		864EA0621C46D6C900E32F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864EA06C1C46DC3A00E32F9B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		864EA06D1C46DC4F00E32F9B /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		864EA0471C46D6C900E32F9B = {
 			isa = PBXGroup;
 			children = (
+				864EA06B1C46DB9A00E32F9B /* Carthage */,
 				864EA0531C46D6C900E32F9B /* NYTPhotoViewer */,
 				864EA05F1C46D6C900E32F9B /* NYTPhotoViewerTests */,
 				864EA0521C46D6C900E32F9B /* Products */,
@@ -84,6 +87,15 @@
 				864EA0621C46D6C900E32F9B /* Info.plist */,
 			);
 			path = NYTPhotoViewerTests;
+			sourceTree = "<group>";
+		};
+		864EA06B1C46DB9A00E32F9B /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				864EA06C1C46DC3A00E32F9B /* Cartfile */,
+				864EA06D1C46DC4F00E32F9B /* Cartfile.private */,
+			);
+			name = Carthage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

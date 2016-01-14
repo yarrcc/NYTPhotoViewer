@@ -554,16 +554,8 @@
 		864EA0691C46D6C900E32F9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = NYTPhotoViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTPhotoViewerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -572,16 +564,8 @@
 		864EA06A1C46D6C900E32F9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = NYTPhotoViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/ocmock/Source/build/Debug-iphoneos",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nytimes.NYTPhotoViewerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

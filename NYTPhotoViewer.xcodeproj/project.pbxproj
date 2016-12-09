@@ -288,6 +288,11 @@
 		11FBDAEE1C877C5D00018169 /* ExamplePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePhoto.swift; sourceTree = "<group>"; };
 		11FBDAF01C877C8B00018169 /* PhotosProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosProvider.swift; sourceTree = "<group>"; };
 		11FBDAFC1C877D9A00018169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		934E15291DFB3C0900FB4C8B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		934E152A1DFB3C0900FB4C8B /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		934E152B1DFB3C0900FB4C8B /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		934E152C1DFB3C0900FB4C8B /* NYTPhotoViewer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NYTPhotoViewer.podspec; sourceTree = "<group>"; };
+		934E152D1DFB3C0900FB4C8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +344,7 @@
 		111083FC1C875B4F00699670 = {
 			isa = PBXGroup;
 			children = (
+				934E15221DFB3BF700FB4C8B /* Metadata */,
 				1110846B1C876A2B00699670 /* Example */,
 				11FBDADD1C877BD600018169 /* Example-Swift */,
 				111084081C875B5000699670 /* NYTPhotoViewer */,
@@ -495,6 +501,18 @@
 				11FBDAEA1C877BD600018169 /* Info.plist */,
 			);
 			path = "Example-Swift";
+			sourceTree = "<group>";
+		};
+		934E15221DFB3BF700FB4C8B /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				934E15291DFB3C0900FB4C8B /* Cartfile */,
+				934E152C1DFB3C0900FB4C8B /* NYTPhotoViewer.podspec */,
+				934E152D1DFB3C0900FB4C8B /* README.md */,
+				934E152A1DFB3C0900FB4C8B /* CHANGELOG.md */,
+				934E152B1DFB3C0900FB4C8B /* LICENSE.md */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
